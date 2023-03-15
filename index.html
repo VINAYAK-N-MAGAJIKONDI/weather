@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css.css" rel="stylesheet">
+    <script src="javas.js"></script>
+    
+    <title>Weather Information</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <h1><center>Live Weather and Air Quality Detector </center></h1>
+    <form id="location-form">
+        <label for="latitude"><center>Latitude:</center></label>
+        <input type="text" id="latitude" name="latitude" placeholder="Enter latitude">
+        <br>
+        <label for="longitude"><center>Longitude:</center></label>
+        <input type="text" id="longitude" name="longitude" placeholder="Enter longitude">
+        <br>
+        <button type="submit">Get Weather</button>
+    </form>
+    <div id="weather-container" style="display: none;">
+        <h2>Current Weather in <span id="city"></span>, <span id="country"></span></h2>
+        <div id="temperature"></div>
+        <div id="description"></div>
+        <img id="icon">
+        <h2>Current Air Quality</h2>
+        <div id="aqi"></div>
+        <div id="aqi-description"></div>
+    </div>
+    </body>
+</html>
+    
+
+  
