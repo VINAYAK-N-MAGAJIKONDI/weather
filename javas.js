@@ -10,8 +10,9 @@ $(document).ready(function() {
             "url": "https://weatherbit-v1-mashape.p.rapidapi.com/current",
             "method": "GET",
             "headers": {
-		"X-RapidAPI-Key": "4c0279e84fmshbf85cf77ab9edd7p1a2ac8jsnf0277490535d",
-		"X-RapidAPI-Host": "weatherbit-v1-mashape.p.rapidapi.com"},
+		"X-RapidAPI-Key": "05bc707b51msh3dba3526b971d28p1691fejsn9f5ef4ade913",
+"X-RapidAPI-Host": "weatherbit-v1-mashape.p.rapidapi.com"
+},
             "data": {
                 "lon": longitude,
                 "lat": latitude
